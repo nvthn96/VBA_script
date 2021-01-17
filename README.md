@@ -2,11 +2,11 @@
 
 Gồm một số đoạn script cho các tác vụ của Excel như tách nội dung câu, kết hợp nhiều cells.
 
-Thư mục:
-Images: gồm một số ảnh hướng dẫn sử dụng
-Modules: gồm một số script function
+**Thư mục**
+1. Images: gồm một số ảnh hướng dẫn sử dụng
+2. Modules: gồm một số script function
 
-Cách sử dụng:
+**Cách sử dụng**
 
 Bước 1: Bật tính năng nhà phát triển
 ![Bật tính năng nhà phát triển](https://drive.google.com/uc?export=view&id=1e-iujVr7sfkEkh8TjyWFdeW0GJQ-CZJq)
