@@ -2,6 +2,10 @@
 
 Gồm một số đoạn script cho các tác vụ của Excel như tách nội dung câu, kết hợp nhiều cells.
 
+Thư mục:
+Images: gồm một số ảnh hướng dẫn sử dụng
+Modules: gồm một số script function
+
 Cách sử dụng:
 
 Bước 1: Bật tính năng nhà phát triển
