@@ -33,6 +33,7 @@ Private Sub FormatSheet()
         sheet.Activate
         ActiveWindow.Zoom = 100
         ActiveWindow.ScrollRow = 1
+		ActiveWindow.ScrollColumn = 1
         sheet.range("A1").Select
     Next sheet
     

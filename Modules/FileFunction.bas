@@ -121,7 +121,7 @@ Sub RemoveAllSpaceOnly()
             sht.Activate
             Set usedRng = sht.UsedRange
             For Each cel In usedRng.Cells
-                If cel.Value2 <> 0 Then
+                If Len(cel.Value2) <> 0 Then
                     If Len(Trim(cel.Value2)) = 0 Then
                         cel.Value2 = vbNullString
                     End If
