@@ -108,3 +108,18 @@ Sub MoveCellsToNextRow()
     Next
     
 End Sub
+
+' Tat update layout
+Public Sub DisableUpdateLayout()
+    Application.ScreenUpdating = False
+End Sub
+
+' Bat update layout
+Public Sub EnableUpdateLayout()
+    Application.ScreenUpdating = False
+End Sub
+
+' Lay ten cua column theo index
+Public Function GetColumnName(ByVal col As Integer) As String
+    GetColumnName = Split(Cells(1, col).Address, "$")(1)
+End Function
